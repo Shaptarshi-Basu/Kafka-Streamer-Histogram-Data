@@ -53,7 +53,7 @@ public class App {
 
         streams.start();
         //then
-        Thread.sleep(30000);
+        Thread.sleep(2000);
         streams.close();
           //output after stream closed
         System.out.println("Histogram about the most frequent alarms");
